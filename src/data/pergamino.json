@@ -1,0 +1,53 @@
+{
+  "nombre": "El Pergamino Maldito",
+  "id": "ART-PER",
+  "origen": "Entregado por Naevia a Vicar II Adelart en el año 189 d.d.e.",
+  "descripcion": "El único objeto en Alváthia con poder para alterar la realidad a escala continental. Concede cualquier deseo pero exige un sacrificio de altísimo valor personal al usuario. El valor del sacrificio determina la potencia y velocidad del deseo.",
+  "regla": {
+    "titulo": "La Regla del Sacrificio",
+    "texto": "El Pergamino concede cualquier deseo. El sacrificio debe ser de altísimo valor personal para quien lo realiza. El valor es relativo al usuario en el momento del uso — no es fijo. Si el sacrificio es bajo, el deseo se ejecuta pero con penalización de tiempo de carga. Solo el Pergamino decide si el sacrificio es suficiente.",
+    "puntos": [
+      "El deseo se ejecuta independientemente del valor del sacrificio.",
+      "Un sacrificio bajo genera penalización de tiempo de carga (semanas).",
+      "Un sacrificio bajo NO genera víctimas adicionales — solo demora.",
+      "El valor del sacrificio es relativo al momento de uso, no a una escala fija.",
+      "El Colegio de Nemyon no ha sancionado ninguno de sus usos — opera fuera del sistema de pactos."
+    ]
+  },
+  "usos": [
+    {
+      "usuario": "Vicar II Adelart",
+      "fecha": "190 d.d.e.",
+      "deseo": "Borrar la memoria colectiva del pueblo de Alváthia",
+      "sacrificio": "Desconocido (hipótesis: su identidad como 'rey justo')",
+      "resultado": "Éxito total. 230 años de olvido colectivo.",
+      "notas": "Transgresión nemírica no autorizada. El Archivo de los Pactos tiene un hueco exactamente de este tamaño."
+    },
+    {
+      "usuario": "Kahlren Isvaren",
+      "fecha": "7 Oct 423 — La Noche Cero",
+      "deseo": "Eliminar a la nobleza de Alváthia",
+      "sacrificio": "Vida de Sohrkan Manthil — un enemigo. Sacrificio barato.",
+      "resultado": "Penalización: 5 semanas de tiempo de carga. El deseo se dispara el 14 de noviembre — exactamente durante el juicio de Kahlren.",
+      "notas": "Saelya murió por la apuñalada de Sohrkan. No por el Pergamino. La Balada fue parcial — el sacrificio barato no fue suficiente para eliminar a toda la nobleza."
+    },
+    {
+      "usuario": "Kahlren Isvaren (como Vahlren Thorne)",
+      "fecha": "424 d.d.e. — Cap. 35",
+      "deseo": "Eliminar a la nobleza restante de Alváthia",
+      "sacrificio": "Su propia vida — de altísimo valor personal porque Rahlven se la devolvió al perdonarlo.",
+      "resultado": "Mueren Kahlren y Rahlven. La nobleza restante es eliminada.",
+      "notas": "El perdón de Rahlven fue la condición que hizo posible el sacrificio. Sin él, la vida de Kahlren no habría valido lo suficiente."
+    }
+  ],
+  "mecanica": {
+    "temporizador": "La Noche Cero (7 Oct) + 5 semanas = ~11-12 noviembre. El proceso de Kahlren dura 30 días desde el 14 de octubre = hasta ~13 noviembre. La Balada ocurre el 14 de noviembre — el día del juicio.",
+    "perspectiva": "Desde la perspectiva del Séptimo: la coincidencia no es accidental. El Séptimo preparó el recipiente (Naevia) y posiblemente orquestó toda la cadena de eventos desde su exilio. Desde cualquier otra perspectiva: consecuencia mecánica de un sacrificio barato."
+  },
+  "implicaciones": [
+    "El Pergamino opera como un Nemar absoluto pero sin sanción del Colegio de Nemyon.",
+    "Las deudas del Pergamino están registradas por Nemyon el dios — no por el Colegio.",
+    "Esta distinción es la grieta más profunda en la arquitectura teológica de Alváthia.",
+    "El plan original de Kahlren y Saelya era usarlo consecutivamente, cada uno sacrificando su propia vida. Sohrkan interrumpió ese plan."
+  ]
+}

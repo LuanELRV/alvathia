@@ -1,0 +1,152 @@
+[
+  {
+    "id": "EVT-ANON-001",
+    "era": "ERA-0",
+    "fecha": "~-10,000 a.d.e.",
+    "titulo": "Naevia borra la magia del mundo",
+    "desc": "Naevia, consumida por la culpa de haber creado a los plebeyos, intenta suicidarse y descubre su inmortalidad. Borra la magia de todo el mundo para nivelar nobles y plebeyos. Efecto contrario: los nobles oprimen más usando leyes, dinero y espadas.",
+    "categoria": "magico",
+    "sellado": false,
+    "personajes": ["PER-SPEC-001"]
+  },
+  {
+    "id": "EVT-ANON-006",
+    "era": "ERA-0",
+    "fecha": "Siglos antes del Año 0",
+    "titulo": "El Proyecto Adelart",
+    "desc": "El clan Adelart inicia un programa de eugenesia mágica para crear el portador de magia supremo. El Séptimo, desde su exilio, detecta el proyecto e influye sobre el ser que nacerá.",
+    "categoria": "politico",
+    "sellado": true,
+    "personajes": ["GOD-SET"]
+  },
+  {
+    "id": "EVT-ANON-008",
+    "era": "ERA-0",
+    "fecha": "Siglos antes del Año 0",
+    "titulo": "Nace Naevia. Esclavizada a los 14 años.",
+    "desc": "Naevia nace en territorio de Vesteria. A los 14 años es esclavizada por el clan Adelart. Erart Adelart la fuerza a crear vida sintética en masa — los futuros plebeyos — como ejército sin magia.",
+    "categoria": "magico",
+    "sellado": true,
+    "personajes": ["PER-SPEC-001"]
+  },
+  {
+    "id": "EVT-0000-001",
+    "era": "ERA-1",
+    "fecha": "Año 0",
+    "titulo": "Erart Adelart conquista el continente. Inicio del cómputo d.d.e.",
+    "desc": "Con el ejército de vida sintética creado por Naevia, Erart conquista todos los clanes y unifica el continente. Funda el Almanaque, el Catastro y la Constitutio Prima. Los plebeyos (vida sintética) son relegados; los hechiceros originales se autoproclamán 'nobles'.",
+    "categoria": "politico",
+    "sellado": false,
+    "personajes": []
+  },
+  {
+    "id": "EVT-0190-001",
+    "era": "ERA-1",
+    "fecha": "190 d.d.e.",
+    "titulo": "Vicar II usa el Pergamino — borra la memoria colectiva",
+    "desc": "Vicar II encontró a Naevia en su exilio (189 d.d.e.) y obtuvo el Pergamino. En 190 lo usa para borrar la memoria colectiva de todo el pueblo. El sacrificio es desconocido (hipótesis: su identidad como 'rey justo'). Transgresión nemírica no autorizada.",
+    "categoria": "magico",
+    "sellado": true,
+    "personajes": []
+  },
+  {
+    "id": "EVT-0200-001",
+    "era": "ERA-2",
+    "fecha": "200 d.d.e.",
+    "titulo": "Fin de la Casa Adelart. Lennox I Rowley asciende al trono.",
+    "desc": "Barnaby II Adelart, último rey, es depuesto. Lennox Rowley, de padres desconocidos, toma el trono. El Almanaque registra la caída como 'transferencia por acuerdo dinástico'. No hubo acuerdo. Inicio de la Era Rowley.",
+    "categoria": "politico",
+    "sellado": false,
+    "personajes": []
+  },
+  {
+    "id": "EVT-0421-001",
+    "era": "ERA-3",
+    "fecha": "421 d.d.e.",
+    "titulo": "Kalveth asesina a Terrick III. Inicio del Interregno.",
+    "desc": "Kalveth Velkyos asesina al último rey Rowley y toma el control de facto sin coronarse. No emite ningún Nemar — sus actos son técnicamente nulos. El Almanaque tiene páginas en blanco para los años 421-423.",
+    "categoria": "politico",
+    "sellado": true,
+    "personajes": ["PER-VELK-001"]
+  },
+  {
+    "id": "EVT-0423-001",
+    "era": "ERA-4",
+    "fecha": "Años antes del Cap. 1",
+    "titulo": "Ejecución de Thalan Vaeris — El punto de quiebre",
+    "desc": "Kalveth ejecuta a Thalan Vaeris (plebeyo, mejor amigo de Kahlren) en la plaza de Estia. Mutilación de brazos y pies, ahorcado frente a Kahlren y Saelya. Esto convierte a Kahlren y Saelya de investigadores en revolucionarios decididos a destruir la nobleza.",
+    "categoria": "politico",
+    "sellado": false,
+    "personajes": ["PER-VAER-001", "PER-ISVA-001", "PER-LYSS-001", "PER-VELK-001"]
+  },
+  {
+    "id": "EVT-0423-002",
+    "era": "ERA-4",
+    "fecha": "7 Oct 423 — La Noche Cero",
+    "titulo": "La Noche Cero",
+    "desc": "Kahlren y Saelya discuten el plan en la alcoba de Saelya en Vesteria. Sohrkan (espía de Kalveth) los escucha. Pelea. Sohrkan apuñala mortalmente a Saelya. Kahlren usa el Pergamino: deseo = eliminar nobleza. Sacrificio = Sohrkan (sacrificio barato). El Pergamino inicia 5 semanas de carga como penalización. Saelya muere con sus últimas palabras: 'Termina lo que empezamos. Venga a Thalan.'",
+    "categoria": "magico",
+    "sellado": false,
+    "personajes": ["PER-ISVA-001", "PER-LYSS-001", "PER-MANT-001"]
+  },
+  {
+    "id": "EVT-0423-003",
+    "era": "ERA-4",
+    "fecha": "14 Oct 423",
+    "titulo": "Kahlren es arrestado. Cap. 1.",
+    "desc": "Kahlren Isvaren es arrestado y llevado al Fuerte Vasto, Vesteria. Acusado del asesinato de Saelya Lyssaries. Le dan 30 días. El Pergamino lleva 7 días de carga. El arresto fue firmado con sello de un rey muerto — es técnicamente nulo.",
+    "categoria": "politico",
+    "sellado": false,
+    "personajes": ["PER-ISVA-001"]
+  },
+  {
+    "id": "EVT-0423-005",
+    "era": "ERA-4",
+    "fecha": "15 Oct 423",
+    "titulo": "Lioren recibe la carta. Inicia el viaje. Cap. 3.",
+    "desc": "Lioren Isvaren recibe la carta sobre el arresto de Kahlren. Decide viajar a Vesteria con Ezren Caelyr, Edrin y Sareth.",
+    "categoria": "narrativo",
+    "sellado": false,
+    "personajes": ["PER-ISVA-002", "PER-CAER-001", "PER-EDRI-001"]
+  },
+  {
+    "id": "EVT-0423-014",
+    "era": "ERA-4",
+    "fecha": "14 Nov 423 — La Balada de Vesteria",
+    "titulo": "La Balada de Vesteria. Cap. 18.",
+    "desc": "El Pergamino completa sus 5 semanas de carga durante el juicio de Kahlren. La nobleza muere en masa en todo el continente. Kahlren sobrevive inconsciente en el estrado. Lioren muere en el tribunal. Toda la familia Isvaren muere en Estia (Naeris, Alyra, Aldric — ya muerto en 420). Kalveth Velkyos muere. Edrin muere. La Balada fue parcial: el sacrificio barato no fue suficiente para eliminar a toda la nobleza.",
+    "categoria": "magico",
+    "sellado": false,
+    "personajes": ["PER-ISVA-001", "PER-ISVA-002", "PER-ISVA-003", "PER-ISVA-005", "PER-VELK-001", "PER-EDRI-001"]
+  },
+  {
+    "id": "EVT-0423-PRE-004",
+    "era": "ERA-4",
+    "fecha": "Post-Balada 423",
+    "titulo": "Kahlren adopta la identidad Vahlren Thorne.",
+    "desc": "Kahlren encuentra a toda su familia muerta en el palacio Isvaren. Toma el nombre Vahlren Thorne — nombre del hijo de un preso conocido del Cap. 1. Abandona el apellido Isvaren.",
+    "categoria": "narrativo",
+    "sellado": false,
+    "personajes": ["PER-ISVA-001", "PER-THORN-001"]
+  },
+  {
+    "id": "EVT-0424-006",
+    "era": "ERA-4",
+    "fecha": "424 d.d.e. — Cap. 35",
+    "titulo": "El perdón de Rahlven. El último uso del Pergamino.",
+    "desc": "En 'la casa de los secretos', Rahlven confronta a Vahlren. Descubre que es Kahlren. Escucha toda la historia. Rahlven perdona a Kahlren. El perdón devuelve valor a la vida de Kahlren. Kahlren usa el Pergamino: deseo = eliminar la nobleza restante. Sacrificio = su propia vida (ahora de altísimo valor). Kahlren y Rahlven mueren juntos.",
+    "categoria": "magico",
+    "sellado": false,
+    "personajes": ["PER-ISVA-001", "PER-LYSS-002"]
+  },
+  {
+    "id": "EVT-0424-007",
+    "era": "ERA-4",
+    "fecha": "424 d.d.e. — Epílogo",
+    "titulo": "El Regreso de Naevia. El fin del olvido.",
+    "desc": "Naevia regresa de su exilio eterno. Devuelve la memoria colectiva que Vicar II les robó en 190 d.d.e. Los plebeyos recuerdan su origen: las creaciones de Naevia, el ejército de Erart, la mentira de la nobleza de sangre. Naevia no reclama nada. Desaparece de nuevo.",
+    "categoria": "magico",
+    "sellado": false,
+    "personajes": ["PER-SPEC-001"]
+  }
+]

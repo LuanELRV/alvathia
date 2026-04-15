@@ -1,0 +1,311 @@
+[
+  {
+    "id": "REG-VES",
+    "nombre": "Vesteria",
+    "cluster": "oeste",
+    "area": "54,782 km²",
+    "provincias": 4,
+    "hub": "(656, -177)",
+    "advocacion": "Asvaren",
+    "monedaDominante": ["Asvar", "Thar", "Nemar"],
+    "capital": "Vesteria",
+    "descripcion": "La capital política del continente. El reino más pequeño pero el más poderoso institucionalmente. Sede del Colegio de Asvaren, el Almanaque y el Archivo General. Su legitimidad descansa no en territorio sino en el monopolio sobre los Colegios y el sello de coronación.",
+    "economia": "Economía de servicios: administración, justicia, educación, gobierno. Exporta leyes y habilitaciones. Importa prácticamente todo lo demás. Dependencia crítica de Estia y Sa-changü.",
+    "locaciones": [
+      { "id": "LOC-VES-01", "nombre": "Fuerte Vasto", "desc": "Prisión. Donde Kahlren es detenido en el Cap. 1." },
+      { "id": "LOC-VES-02", "nombre": "Palacio Real", "desc": "Sede de la Corona. Sala del juicio." },
+      { "id": "LOC-VES-03", "nombre": "Archivo General del Reino", "desc": "Sede de los Copistas. Expedientes sellados." }
+    ],
+    "notaInterna": "Pequeño territorio, control máximo. Cuando ese monopolio falla — como durante el Interregno — el tamaño real del reino se vuelve visible.",
+    "fronteras": ["REG-EST", "REG-SAC"],
+    "provinciasList": [
+      { "id": "PRV-VES-01", "nombre": "Arvenis", "nota": "Zona agrícola central" },
+      { "id": "PRV-VES-02", "nombre": "Caelmar", "nota": "Costa occidental" },
+      { "id": "PRV-VES-03", "nombre": "Valtorum", "nota": "Región ganadera" },
+      { "id": "PRV-VES-04", "nombre": "Bornelis", "nota": "Provincia septentrional" }
+    ]
+  },
+  {
+    "id": "REG-EST",
+    "nombre": "Estia",
+    "cluster": "oeste",
+    "area": "54,417 km²",
+    "provincias": 3,
+    "hub": "(905, -98)",
+    "advocacion": "Elaris",
+    "monedaDominante": ["Velkan", "Thar", "Elari"],
+    "capital": "Estia",
+    "descripcion": "Bisagra entre Vesteria y el resto del continente. La mayoría de las rutas terrestres que entran o salen de Vesteria pasan por Estia. Centro comercial y artístico del cluster oeste. Sede del Colegio de Elaris.",
+    "economia": "Exporta tejidos finos, arte certificado, documentos del Colegio de Tharen. Importa alimentos e industria de Sa-changü. El nodo de validación de dotes y herencias nobles.",
+    "locaciones": [
+      { "id": "LOC-EST-01", "nombre": "Palacio Lyssaries", "desc": "Sede de la Casa Lyssaries. Hogar de Saelya." },
+      { "id": "LOC-EST-02", "nombre": "Muralla Lyssaries", "desc": "Perímetro defensivo del Palacio." },
+      { "id": "LOC-EST-03", "nombre": "Posta del Camino Real", "desc": "Sobre RUT-TER-001. Edrin trabaja aquí. Punto de partida del viaje de Lioren." }
+    ],
+    "notaInterna": "Estia y Vesteria tienen casi el mismo tamaño pero son funcionalmente opuestas: Vesteria es el gobierno, Estia es el comercio que lo financia. Ninguna lo reconoce en documentos oficiales.",
+    "fronteras": ["REG-VES", "REG-SAC", "REG-DRO", "REG-SBT"],
+    "provinciasList": [
+      { "id": "PRV-EST-01", "nombre": "Aquilenis", "nota": "Tierras altas" },
+      { "id": "PRV-EST-02", "nombre": "Mercarum", "nota": "Provincia comercial" },
+      { "id": "PRV-EST-03", "nombre": "Sylvanum", "nota": "Colinda con Bosque Lennox" }
+    ]
+  },
+  {
+    "id": "REG-SAC",
+    "nombre": "Sa-changü",
+    "cluster": "oeste",
+    "area": "55,973 km²",
+    "provincias": 7,
+    "hub": "(839, 240)",
+    "advocacion": "Valkaré (advocación local de Velkar)",
+    "monedaDominante": ["Velkan", "Elari"],
+    "capital": "Sa-changü (ciudad de los mil mercados)",
+    "descripcion": "El mayor centro comercial del continente. Su posición — conectada con Vesteria/Estia y con los reinos del norte — la convierte en el nodo por donde circula el mayor volumen de bienes. Reclama primacía teológica sobre el comercio continental.",
+    "economia": "Exporta seda, metales preciosos, especias de lujo. Mayor fragmentación provincial del continente — siete provincias, restos de siete ciudades-estado que se unificaron en 143 d.d.e.",
+    "locaciones": [],
+    "notaInterna": "La Oficina nunca ha enviado un medidor completo a Sa-changü. Los mapas fueron entregados por el propio gobierno de Sa-changü en el año 287.",
+    "fronteras": ["REG-VES", "REG-EST", "REG-OLP", "REG-HOG"],
+    "provinciasList": [
+      { "id": "PRV-SAC-01", "nombre": "Nangthang", "nota": "Planicie del sur" },
+      { "id": "PRV-SAC-02", "nombre": "Dzongkhar", "nota": "Fortaleza negra" },
+      { "id": "PRV-SAC-03", "nombre": "Serling", "nota": "Colina dorada" },
+      { "id": "PRV-SAC-04", "nombre": "Chakgang", "nota": "Río de hierro" },
+      { "id": "PRV-SAC-05", "nombre": "Kalding", "nota": "Paso alto" },
+      { "id": "PRV-SAC-06", "nombre": "Rimtse", "nota": "Borde del lago" },
+      { "id": "PRV-SAC-07", "nombre": "Namling", "nota": "Tierra del cielo" }
+    ]
+  },
+  {
+    "id": "REG-DRO",
+    "nombre": "Droeland",
+    "cluster": "oeste",
+    "area": "44,779 km²",
+    "provincias": 3,
+    "hub": "(1086, -222)",
+    "advocacion": "Judge-Keir (advocación local de Asvaren)",
+    "monedaDominante": ["Asvar", "Velkan"],
+    "capital": "No registrada",
+    "descripcion": "Economía extractiva de baja transformación. Aislada deliberadamente — tres propuestas de apertura de rutas hacia San Bertán fueron bloqueadas en el Colegio de Asvaren. Depende de Estia para cualquier intercambio.",
+    "economia": "Exporta madera, pieles, animales de caza. Importa metales trabajados, sal. Disputa de frontera con Estia (~800 km²) no reconocida en documentos oficiales.",
+    "locaciones": [],
+    "notaInterna": "Quien tiene interés en que Droeland sea dependiente de Estia — el Catastro no lo documenta.",
+    "fronteras": ["REG-EST", "REG-SBT", "REG-XEC"],
+    "provinciasList": [
+      { "id": "PRV-DRO-01", "nombre": "Oakmere", "nota": "Lago de los robles" },
+      { "id": "PRV-DRO-02", "nombre": "Greyfen", "nota": "Pantano gris" },
+      { "id": "PRV-DRO-03", "nombre": "Coldwall", "nota": "Muro frío — frontera norte" }
+    ]
+  },
+  {
+    "id": "REG-SBT",
+    "nombre": "San Bertán",
+    "cluster": "transicion",
+    "area": "57,805 km²",
+    "provincias": 2,
+    "hub": "(1340, 5)",
+    "advocacion": "El Justo (Asvaren) / El Silente — Nemión (Nemyon)",
+    "monedaDominante": ["Velkan", "Nemar"],
+    "capital": "No registrada",
+    "descripcion": "Sede del Colegio de Nemyon — el único Colegio mayor fuera de Vesteria. El Archivo de los Pactos custodiado aquí es inaccesible desde fuera. La entrada occidental al cluster este. Nodo de poder más subestimado del continente.",
+    "economia": "Exporta ganado, lana, quesos. Control estratégico de tránsito inter-cluster. Todo intercambio terrestre entre clusters pasa por San Bertán.",
+    "locaciones": [
+      { "id": "LOC-SBT-01", "nombre": "Sede del Colegio de Nemyon", "desc": "El Archivo de los Pactos. Inaccesible sin comparecer en persona." }
+    ],
+    "notaInterna": "Si el Colegio de Nemyon negara acceso al Archivo de los Pactos, la estructura de alianzas del continente quedaría fragmentada. Este potencial nunca ha sido ejercido.",
+    "fronteras": ["REG-EST", "REG-OLP", "REG-XEC", "REG-DRO"],
+    "provinciasList": [
+      { "id": "PRV-SBT-01", "nombre": "Valdecours", "nota": "Valle de los caminos" },
+      { "id": "PRV-SBT-02", "nombre": "Serramonte", "nota": "Sierra del monte" }
+    ]
+  },
+  {
+    "id": "REG-XEC",
+    "nombre": "Xecrá Edáfi",
+    "cluster": "transicion",
+    "area": "165,739.78 km²",
+    "provincias": 0,
+    "hub": "(1559, -58)",
+    "advocacion": "Emporén, Dikastós, Teleós, Kalistía (nomenclatura independiente)",
+    "monedaDominante": ["Sin datos verificados"],
+    "capital": "No registrada",
+    "descripcion": "Tercer reino más extenso y el más inaccesible. Cero provincias registradas. Cuatro expediciones de medición fallidas. Sus autoridades permiten el comercio en los bordes pero no el acceso al interior. Cordillera montañosa domina casi todo el territorio.",
+    "economia": "Exporta cerámica, aceite, vinos blancos (datos no verificados internamente). Su soberanía no necesita el reconocimiento de Vesteria para funcionar.",
+    "locaciones": [],
+    "notaInterna": "El único reporte disponible (403 d.d.e.): 'Los nombres locales de los dioses coinciden con nomenclatura griega histórica.' El Ministerio de Fe no reconoce estas correspondencias.",
+    "fronteras": ["REG-SBT", "REG-BER", "REG-LIN", "REG-GLO", "REG-DRO"],
+    "provinciasList": []
+  },
+  {
+    "id": "REG-OLP",
+    "nombre": "Ølplass",
+    "cluster": "norte",
+    "area": "66,682 km²",
+    "provincias": 5,
+    "hub": "(1121, 197)",
+    "advocacion": "Velgarr (Velkar), Ósvarg (Asvaren)",
+    "monedaDominante": ["Velkan", "trueque regulado"],
+    "capital": "No registrada",
+    "descripcion": "El reino más extenso del cluster oeste. Mayor porcentaje de comercio no registrado del cluster oeste — estimaciones no oficiales: 40-45% del volumen total es comercio gris.",
+    "economia": "Exporta pescado salado, madera del norte, pieles. Importa sal, cereales, herramientas. La ruta Ølplass-Snoedan opera bajo trueque regulado en meses de cierre invernal.",
+    "locaciones": [],
+    "notaInterna": "El Colegio de Velkarr lleva 200 años sin forzar la conversión a Velkan en la ruta hacia Snoedan. El Catastro lo llama 'excepción temporal'. Es estructural.",
+    "fronteras": ["REG-SAC", "REG-HOG", "REG-SNO", "REG-SBT"],
+    "provinciasList": [
+      { "id": "PRV-OLP-01", "nombre": "Brøndal", "nota": "Valle del manantial" },
+      { "id": "PRV-OLP-02", "nombre": "Kvitfjord", "nota": "Fiordo blanco" },
+      { "id": "PRV-OLP-03", "nombre": "Skogvik", "nota": "Bahía del bosque" },
+      { "id": "PRV-OLP-04", "nombre": "Steinheim", "nota": "Hogar de piedra" },
+      { "id": "PRV-OLP-05", "nombre": "Grønberg", "nota": "Montaña verde" }
+    ]
+  },
+  {
+    "id": "REG-SNO",
+    "nombre": "Snoedan",
+    "cluster": "norte",
+    "area": "56,652 km²",
+    "provincias": 2,
+    "hub": "(1243, 334)",
+    "advocacion": "Coinwarden (Velkar), The Judge (Asvaren), The Hollow (Nemyon)",
+    "monedaDominante": ["Velkan", "trueque regulado"],
+    "capital": "No registrada",
+    "descripcion": "Opera mayoritariamente bajo advocaciones locales en inglés que no reconocen la nomenclatura de Vesteria. Los contratos bajo 'The Judge' requieren homologación ante Asvaren — proceso de 2 a 8 meses.",
+    "economia": "Exporta lana, miel, cera. Importa herramientas, sal, telas.",
+    "locaciones": [],
+    "notaInterna": "'Coinwarden', 'The Judge' y 'The Hollow' son traducciones funcionales, no equivalencias teológicas.",
+    "fronteras": ["REG-OLP", "REG-HOG"],
+    "provinciasList": [
+      { "id": "PRV-SNO-01", "nombre": "Coldwater", "nota": "Agua fría" },
+      { "id": "PRV-SNO-02", "nombre": "Thornfield", "nota": "Campo de espinos" }
+    ]
+  },
+  {
+    "id": "REG-HOG",
+    "nombre": "Högsplat",
+    "cluster": "norte",
+    "area": "41,389 km²",
+    "provincias": 3,
+    "hub": "(971, 436)",
+    "advocacion": "Växlark (Velkar), Hjemli (Liora)",
+    "monedaDominante": ["Velkan", "Liorin"],
+    "capital": "No registrada",
+    "descripcion": "El reino más pequeño del continente. El corredor Ølplass-Högsplat es una de las rutas con mayor porcentaje de comercio de armas no certificadas.",
+    "economia": "Exporta madera tallada, resinas, animales de tiro. La ambigüedad entre 'herramienta de trabajo' y 'arma no registrada' es especialmente explotada aquí.",
+    "locaciones": [],
+    "notaInterna": "Más pequeño del continente. 41,389 km².",
+    "fronteras": ["REG-SAC", "REG-OLP", "REG-SNO"],
+    "provinciasList": [
+      { "id": "PRV-HOG-01", "nombre": "Halvstad", "nota": "Ciudad del medio" },
+      { "id": "PRV-HOG-02", "nombre": "Dalby", "nota": "Aldea del valle" },
+      { "id": "PRV-HOG-03", "nombre": "Granholm", "nota": "Islote de abetos" }
+    ]
+  },
+  {
+    "id": "REG-BER",
+    "nombre": "Berekýer",
+    "cluster": "este",
+    "area": "108,591.29 km²",
+    "provincias": 4,
+    "hub": "(1996, 270)",
+    "advocacion": "Velkarím (Velkar), Azfari (Asvaren), Nemirhan (Nemyon)",
+    "monedaDominante": ["Velkan", "Thar"],
+    "capital": "No registrada",
+    "descripcion": "Principal productor de metales trabajados del cluster sur. El Gremio de Constructores tiene presencia significativa.",
+    "economia": "Exporta metales, herrería de calidad, armas certificadas. La 'Feria de los Tres Círculos' — único día del año sin peajes — es el mayor evento comercial del cluster este.",
+    "locaciones": [],
+    "notaInterna": "",
+    "fronteras": ["REG-LIN", "REG-THA", "REG-XEC"],
+    "provinciasList": [
+      { "id": "PRV-BER-01", "nombre": "Demirkale", "nota": "Fortaleza de hierro" },
+      { "id": "PRV-BER-02", "nombre": "Bakırköy", "nota": "Aldea del cobre" },
+      { "id": "PRV-BER-03", "nombre": "Yıldızdağ", "nota": "Montaña de las estrellas" },
+      { "id": "PRV-BER-04", "nombre": "Altınsaray", "nota": "Palacio dorado" }
+    ]
+  },
+  {
+    "id": "REG-THA",
+    "nombre": "Thandagah",
+    "cluster": "este",
+    "area": "51,630 km²",
+    "provincias": 2,
+    "hub": "(2281, 77)",
+    "advocacion": "Tashvir (Velkar), Tahanar (Asvaren), Numrah (Nemyon), Yashmé (Elaris)",
+    "monedaDominante": ["Velkan", "Elari"],
+    "capital": "No registrada",
+    "descripcion": "Especializado en especias y plantas medicinales de lujo. Firma sus documentos en la lengua local — lo que hace todos sus contratos sin validez jurídica ante el Archivo según la Constitutio Prima.",
+    "economia": "Exporta especias, plantas medicinales raras. Sus productos comercian en rango MON-ELA. El comercio de Thandagah no aplica la regla del idioma oficial. El Catastro sí.",
+    "locaciones": [],
+    "notaInterna": "Los documentos en lengua local no tienen validez jurídica en el Archivo. El comercio de Thandagah no lo aplica — y funciona de todas formas.",
+    "fronteras": ["REG-BER", "REG-LIN", "REG-MAK"],
+    "provinciasList": [
+      { "id": "PRV-THA-01", "nombre": "Shalkoh", "nota": "Montaña de río" },
+      { "id": "PRV-THA-02", "nombre": "Barakgah", "nota": "Lugar de bendición" }
+    ]
+  },
+  {
+    "id": "REG-LIN",
+    "nombre": "Linabyer",
+    "cluster": "este",
+    "area": "186,330.69 km²",
+    "provincias": 4,
+    "hub": "(1995, -52)",
+    "advocacion": "Gåldtær (Velkar), Lóvsvar (Asvaren), Gravhjem (Nemyon), Yndra (Elaris)",
+    "monedaDominante": ["Velkan", "Thar"],
+    "capital": "No registrada",
+    "descripcion": "Segundo reino más extenso. El nodo central del cluster este con cinco conexiones directas. El equivalente oriental de Sa-changü. Mayor conectividad del cluster este.",
+    "economia": "Exporta ámbar, cuero trabajado, lacas. Grandes territorios sin administración formal entre centros de provincia — históricamente favorece el comercio no regulado.",
+    "locaciones": [],
+    "notaInterna": "Baja densidad administrativa para su extensión. Cuatro provincias para 186,330 km².",
+    "fronteras": ["REG-XEC", "REG-BER", "REG-THA", "REG-GLO", "REG-MAK"],
+    "provinciasList": [
+      { "id": "PRV-LIN-01", "nombre": "Elvdal", "nota": "Valle del río" },
+      { "id": "PRV-LIN-02", "nombre": "Lysefjord", "nota": "Fiordo de luz" },
+      { "id": "PRV-LIN-03", "nombre": "Vardevik", "nota": "Bahía de la atalaya" },
+      { "id": "PRV-LIN-04", "nombre": "Nørdholm", "nota": "Islote del norte" }
+    ]
+  },
+  {
+    "id": "REG-GLO",
+    "nombre": "Gloirvoir",
+    "cluster": "sur",
+    "area": "216,043.38 km²",
+    "provincias": 6,
+    "hub": "(1568, -599)",
+    "advocacion": "Velcoire (Velkar), Asvoîr (Asvaren), Éloire (Elaris), Liorèle (Liora)",
+    "monedaDominante": ["Elari", "Velkan"],
+    "capital": "No registrada",
+    "descripcion": "El reino más extenso del continente. Principal productor de bienes de lujo del cluster este. Sus academias de arte compiten con las de Estia. El más distante de la capital en tiempo de tránsito.",
+    "economia": "Exporta vinos, telas finas, arte decorativo. La conexión con Vesteria requiere cruzar todo el corredor inter-cluster.",
+    "locaciones": [],
+    "notaInterna": "Más extenso del continente. 216,043 km². Su lejanía de Vesteria es estructural, no accidental.",
+    "fronteras": ["REG-XEC", "REG-LIN", "REG-MAK"],
+    "provinciasList": [
+      { "id": "PRV-GLO-01", "nombre": "Bellevaux", "nota": "Hermoso valle" },
+      { "id": "PRV-GLO-02", "nombre": "Hautmont", "nota": "Monte alto" },
+      { "id": "PRV-GLO-03", "nombre": "Verimois", "nota": "Bosque verdadero" },
+      { "id": "PRV-GLO-04", "nombre": "Noirfontaine", "nota": "Fuente negra" },
+      { "id": "PRV-GLO-05", "nombre": "Grandcour", "nota": "Gran patio/corte" },
+      { "id": "PRV-GLO-06", "nombre": "Meribois", "nota": "Bosque del mérito" }
+    ]
+  },
+  {
+    "id": "REG-MAK",
+    "nombre": "Makriá",
+    "cluster": "sur",
+    "area": "69,459.27 km²",
+    "provincias": 3,
+    "hub": "(2291, -415)",
+    "advocacion": "Karavon (Velkar), Dikayon (Asvaren), Eraphía (Elaris)",
+    "monedaDominante": ["Thar", "Elari"],
+    "capital": "No registrada",
+    "descripcion": "Principal productor de materiales de construcción del continente. El Gremio de Constructores tiene sede aquí. Los palacios de Vesteria y Estia fueron construidos con mármol de Makriá.",
+    "economia": "Exporta mármol, piedra tallada, arquitectura. El cambio de pago de Nemar a Elari (año 200) significó que el contrato de extracción dejó de ser irrevocable.",
+    "locaciones": [],
+    "notaInterna": "El mármol de Makriá pagado con Nemar por los Adelart. Los Rowley cambiaron a Elari — sacrificando la irrevocabilidad del contrato.",
+    "fronteras": ["REG-THA", "REG-LIN", "REG-GLO"],
+    "provinciasList": [
+      { "id": "PRV-MAK-01", "nombre": "Lithopolis", "nota": "Ciudad de piedra" },
+      { "id": "PRV-MAK-02", "nombre": "Akrotiri", "nota": "Promontorio, extremo" },
+      { "id": "PRV-MAK-03", "nombre": "Mesogeia", "nota": "Tierra del medio" }
+    ]
+  }
+]

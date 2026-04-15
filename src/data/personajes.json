@@ -1,0 +1,338 @@
+[
+  {
+    "id": "PER-ISVA-001",
+    "nombre": "Kahlren Isvaren",
+    "casa": "HOU-ISVA",
+    "casaNombre": "Casa Isvaren",
+    "region": "REG-EST",
+    "regionNombre": "Estia",
+    "titulo": "Heredero de Casa Isvaren",
+    "estado": "Vivo",
+    "estadoDetalle": "Detenido — Fuerte Vasto, Vesteria (14 oct 423). Adopta identidad Vahlren Thorne post-Balada.",
+    "categoria": "principal",
+    "rol": "Protagonista (POV 1). Heredero noble que investiga la muerte de Saelya. Usuario del Pergamino. Desencadenante involuntario de la Balada.",
+    "notaInterna": "El Almanaque lo registra como detenido. No registra su cambio de identidad ni su último acto con el Pergamino. Técnicamente, el arresto es nulo — fue firmado con sello de un rey muerto.",
+    "eventos": [
+      { "fecha": "7 Oct 423", "desc": "La Noche Cero: usa el Pergamino con Sohrkan como sacrificio barato. El Pergamino inicia carga de 5 semanas." },
+      { "fecha": "14 Oct 423", "desc": "Arrestado. Trasladado a Fuerte Vasto, Vesteria. Cap. 1." },
+      { "fecha": "14 Nov 423", "desc": "La Balada se dispara durante su juicio. Sobrevive. Toda su familia muere." },
+      { "fecha": "Post-Balada", "desc": "Adopta identidad Vahlren Thorne." },
+      { "fecha": "424", "desc": "Cap. 35: Rahlven lo perdona. Usa el Pergamino por última vez — sacrificio: su propia vida. Muere con Rahlven." }
+    ],
+    "relaciones": [
+      { "id": "PER-LYSS-001", "nombre": "Saelya Lyssaries", "tipo": "Amor, socio de investigación. Muerta." },
+      { "id": "PER-ISVA-002", "nombre": "Lioren Isvaren", "tipo": "Familiar. Muerto en la Balada." },
+      { "id": "PER-LYSS-002", "nombre": "Rahlven Lyssaries", "tipo": "Lo perdona. Mueren juntos." },
+      { "id": "PER-THORN-001", "nombre": "Vahlren Thorne", "tipo": "Identidad alterna post-Balada." }
+    ],
+    "lema": "Qui quaerit, invenit",
+    "escudoDesc": "Campo de azur, vela de plata con llama inclinada. Línea de oro en el umbral."
+  },
+  {
+    "id": "PER-ISVA-002",
+    "nombre": "Lioren Isvaren",
+    "casa": "HOU-ISVA",
+    "casaNombre": "Casa Isvaren",
+    "region": "REG-EST",
+    "regionNombre": "Estia",
+    "titulo": "Pendiente de confirmación",
+    "estado": "Muerto",
+    "estadoDetalle": "Muerto — Balada de Vesteria, 14 nov 423",
+    "categoria": "principal",
+    "rol": "Protagonista (POV 2). Viaja a Vesteria a investigar el arresto de Kahlren. Jefe de familia Isvaren tras la muerte de Aldric.",
+    "notaInterna": "Salió de Estia el 15 de octubre con Ezren, Edrin y Sareth. Sin registro de tránsito. Llegó a Vesteria antes del 14 de noviembre.",
+    "eventos": [
+      { "fecha": "15 Oct 423", "desc": "Recibe carta sobre arresto de Kahlren. Inicia viaje a Vesteria. Cap. 3." },
+      { "fecha": "Oct-Nov 423", "desc": "Investiga en Estia, viaja a Sa-changü, descubre que S.M. = Sohrkan Manthil." },
+      { "fecha": "14 Nov 423", "desc": "Muerto — Balada de Vesteria durante el juicio. Cap. 18." }
+    ],
+    "relaciones": [
+      { "id": "PER-ISVA-001", "nombre": "Kahlren Isvaren", "tipo": "Familiar. Viaja a rescatarlo." },
+      { "id": "PER-CAER-001", "nombre": "Ezren Caelyr", "tipo": "Compañero de viaje." },
+      { "id": "PER-EDRI-001", "nombre": "Edrin", "tipo": "Compañero de viaje." },
+      { "id": "PER-ISVA-005", "nombre": "Alyra Isvaren", "tipo": "Esposa. Muerta en la Balada." }
+    ]
+  },
+  {
+    "id": "PER-SPEC-001",
+    "nombre": "Naevia",
+    "casa": null,
+    "casaNombre": "Ninguna — fuera del sistema heráldico",
+    "region": null,
+    "regionNombre": "Desconocida",
+    "titulo": "Sin título registrado",
+    "estado": "Desconocido",
+    "estadoDetalle": "Exilio voluntario. Reaparece en 424 d.d.e.",
+    "categoria": "especial",
+    "rol": "Figura central del lore profundo. Creó a los plebeyos por orden de Erart Adelart. Borró la magia del mundo. Entregó el Pergamino a Vicar II. Regresa en el epílogo.",
+    "notaInterna": "Categoría SPEC existe solo para ella. La Oficina no tiene idioma para lo que es. La ficha fue creada en el año 196 bajo instrucción del Colegio de Asvaren.",
+    "eventos": [
+      { "fecha": "Siglos antes del Año 0", "desc": "Nace. Esclavizada por el clan Adelart a los 14 años." },
+      { "fecha": "Pre-Año 0", "desc": "Forzada a crear vida sintética en masa — los futuros plebeyos." },
+      { "fecha": "~Año 0", "desc": "Intenta suicidarse. Descubre su inmortalidad. Borra la magia del mundo." },
+      { "fecha": "189 d.d.e.", "desc": "Vicar II la encuentra en su exilio. Le entrega el Pergamino con la Regla del Sacrificio." },
+      { "fecha": "424 d.d.e.", "desc": "Regresa. Devuelve la memoria colectiva robada por Vicar II. Desaparece sin reclamar nada." }
+    ],
+    "relaciones": [
+      { "id": "GOD-SET", "nombre": "El Séptimo", "tipo": "La influyó antes de nacer. Posiblemente todo su arco es obra del Séptimo actuando desde el exilio." }
+    ]
+  },
+  {
+    "id": "PER-CAER-001",
+    "nombre": "Ezren Caelyr",
+    "casa": "HOU-CAER",
+    "casaNombre": "Casa Caelyr",
+    "region": null,
+    "regionNombre": "Desconocida",
+    "titulo": "Sin título registrado",
+    "estado": "Vivo",
+    "estadoDetalle": "Activo — sobrevivió la Balada",
+    "categoria": "secundario",
+    "rol": "Compañero de viaje de Lioren. Lealtad a los Isvaren sin base documental — existe porque existe.",
+    "notaInterna": "Ni su origen ni el de su casa están documentados. El Almanaque no puede explicar por qué está donde está.",
+    "eventos": [
+      { "fecha": "Oct-Nov 423", "desc": "Acompaña a Lioren en el viaje Estia-Vesteria." },
+      { "fecha": "14 Nov 423", "desc": "Sobrevive la Balada de Vesteria." }
+    ],
+    "relaciones": [
+      { "id": "PER-ISVA-002", "nombre": "Lioren Isvaren", "tipo": "Lo acompañó al viaje. Lealtad sin explicación documental." }
+    ]
+  },
+  {
+    "id": "PER-EDRI-001",
+    "nombre": "Edrin",
+    "casa": null,
+    "casaNombre": "Pendiente de confirmación",
+    "region": "REG-EST",
+    "regionNombre": "Estia",
+    "titulo": "Noble menor sin título activo",
+    "estado": "Muerto",
+    "estadoDetalle": "Muerto — Balada de Vesteria, 14 nov 423. ~15 años.",
+    "categoria": "secundario",
+    "rol": "Palafrenero en la Posta del Camino Real. Sobrino del dueño. Acompaña a Lioren, Ezren y Sareth a Vesteria.",
+    "notaInterna": "Un noble de 15 años trabajando como palafrenero que muere en el evento que destruyó la nobleza. Su historia es más compleja de lo que el Almanaque puede documentar.",
+    "eventos": [
+      { "fecha": "Oct-Nov 423", "desc": "Acompaña a Lioren en el viaje Estia-Vesteria desde la Posta del Camino Real." },
+      { "fecha": "14 Nov 423", "desc": "Muerto — Balada de Vesteria." }
+    ],
+    "relaciones": [
+      { "id": "PER-ISVA-002", "nombre": "Lioren Isvaren", "tipo": "Lo acompañó al viaje." }
+    ]
+  },
+  {
+    "id": "PER-LYSS-001",
+    "nombre": "Saelya Lyssaries",
+    "casa": "HOU-LYSS",
+    "casaNombre": "Casa Lyssaries",
+    "region": "REG-EST",
+    "regionNombre": "Estia",
+    "titulo": "Hija del Lord de Estia",
+    "estado": "Muerta",
+    "estadoDetalle": "Muerta — 7 oct 423. La Noche Cero.",
+    "categoria": "principal",
+    "rol": "Descubrió El Secreto del Linaje. Socio y amor de Kahlren. Su muerte desencadenó toda la cadena de eventos.",
+    "notaInterna": "El Almanaque tiene la fecha, no la causa. La investigó con Kahlren usando el poder del apellido Lyssaries. Kalveth ejecutó a Thalan para advertirles.",
+    "eventos": [
+      { "fecha": "Años antes del Cap. 1", "desc": "Descubre El Secreto del Linaje: Kalveth mató a Terrick III." },
+      { "fecha": "7 Oct 423", "desc": "La Noche Cero: apuñalada mortalmente por Sohrkan mientras Kahlren usaba el Pergamino. Última palabras: 'Termina lo que empezamos, venga a Thalan y a toda su gente.'" }
+    ],
+    "relaciones": [
+      { "id": "PER-ISVA-001", "nombre": "Kahlren Isvaren", "tipo": "Amor. Investigaron juntos." },
+      { "id": "PER-LYSS-003", "nombre": "Curtan Lyssaries", "tipo": "Padre." },
+      { "id": "PER-LYSS-002", "nombre": "Rahlven Lyssaries", "tipo": "Hermano." },
+      { "id": "PER-VELK-001", "nombre": "Kalveth Velkyos", "tipo": "Descubrió su crimen. Él ordenó matarla indirectamente." }
+    ]
+  },
+  {
+    "id": "PER-LYSS-002",
+    "nombre": "Rahlven Lyssaries",
+    "casa": "HOU-LYSS",
+    "casaNombre": "Casa Lyssaries",
+    "region": "REG-EST",
+    "regionNombre": "Estia",
+    "titulo": "Hijo del Lord de Estia",
+    "estado": "Muerto",
+    "estadoDetalle": "Sobrevivió la Balada. Muerto en 424 d.d.e. — junto a Kahlren en el Cap. 35.",
+    "categoria": "secundario",
+    "rol": "Investiga la muerte de su hermana Saelya. Cree que Kahlren es culpable. Lo encuentra disfrazado de Vahlren Thorne. Lo perdona. Su perdón hace posible el sacrificio final.",
+    "notaInterna": "El Almanaque lo tiene como activo. No registra ni su muerte ni el perdón. El perdón de Rahlven es lo que devuelve valor a la vida de Kahlren — y hace posible que el Pergamino acepte su sacrificio.",
+    "eventos": [
+      { "fecha": "7 Oct 423", "desc": "Muerte de Saelya. Inicia investigación propia." },
+      { "fecha": "14 Nov 423", "desc": "Sobrevive la Balada de Vesteria." },
+      { "fecha": "424", "desc": "Cap. 35: Confronta a Vahlren/Kahlren. Escucha toda la historia. Lo perdona. Mueren juntos." }
+    ],
+    "relaciones": [
+      { "id": "PER-LYSS-001", "nombre": "Saelya Lyssaries", "tipo": "Hermana. Su muerte lo define." },
+      { "id": "PER-ISVA-001", "nombre": "Kahlren Isvaren", "tipo": "Lo perdonó en el Cap. 35. Murieron juntos." },
+      { "id": "PER-LYSS-003", "nombre": "Curtan Lyssaries", "tipo": "Padre. Único Lyssaries superviviente." }
+    ]
+  },
+  {
+    "id": "PER-LYSS-003",
+    "nombre": "Curtan Lyssaries",
+    "casa": "HOU-LYSS",
+    "casaNombre": "Casa Lyssaries",
+    "region": "REG-EST",
+    "regionNombre": "Estia",
+    "titulo": "Lord de Estia",
+    "estado": "Vivo",
+    "estadoDetalle": "Activo. Noble de mayor rango superviviente de la Balada con posición intacta.",
+    "categoria": "secundario",
+    "rol": "Lord de Estia. Padre de Saelya y Rahlven. Uno de los pocos nobles con título vigente post-Balada.",
+    "notaInterna": "Post-424, con la muerte de Rahlven, Curtan es el único Lyssaries de primera línea. Esto lo convierte casi por defecto en uno de los nobles más relevantes del continente.",
+    "eventos": [
+      { "fecha": "7 Oct 423", "desc": "Muerte de su hija Saelya." },
+      { "fecha": "14 Nov 423", "desc": "Sobrevive la Balada — único Lyssaries de primera línea activo." }
+    ],
+    "relaciones": [
+      { "id": "PER-LYSS-001", "nombre": "Saelya Lyssaries", "tipo": "Hija. Muerta." },
+      { "id": "PER-LYSS-002", "nombre": "Rahlven Lyssaries", "tipo": "Hijo. Muerto en 424." }
+    ]
+  },
+  {
+    "id": "PER-VELK-001",
+    "nombre": "Kalveth Velkyos",
+    "casa": "HOU-VELK",
+    "casaNombre": "Casa Velkyos",
+    "region": "REG-VES",
+    "regionNombre": "Vesteria",
+    "titulo": "Sin título registrado — gobernó como regente de facto no coronado",
+    "estado": "Muerto",
+    "estadoDetalle": "Muerto — Balada de Vesteria, 14 nov 423",
+    "categoria": "antagonista",
+    "rol": "Asesinó a Terrick III Rowley. Gobernó dos años sin título como el vacío institucional más grande de la historia de Alváthia. El Almanaque casi nunca existió para él.",
+    "notaInterna": "La persona más poderosa que nunca existió en el Almanaque. Firmó arrestos, ejecuciones y órdenes con el sello de un rey muerto. Todo lo que firmó es técnicamente nulo.",
+    "eventos": [
+      { "fecha": "421 d.d.e.", "desc": "Asesina a Terrick III Rowley. Toma el control de facto sin coronarse." },
+      { "fecha": "421-423", "desc": "Gobierno como regente no coronado. Ejecuta a Thalan Vaeris. Arresta a Kahlren Isvaren." },
+      { "fecha": "14 Nov 423", "desc": "Muerto — Balada de Vesteria." }
+    ],
+    "relaciones": [
+      { "id": "PER-VAER-001", "nombre": "Thalan Vaeris", "tipo": "Lo ejecutó para silenciarlo." },
+      { "id": "PER-ISVA-001", "nombre": "Kahlren Isvaren", "tipo": "Lo arrestó con sello inválido." },
+      { "id": "PER-MANT-001", "nombre": "Sohrkan Manthil", "tipo": "Espía al servicio de Kalveth." }
+    ]
+  },
+  {
+    "id": "PER-MANT-001",
+    "nombre": "Sohrkan Manthil",
+    "casa": "HOU-MANT",
+    "casaNombre": "Casa Manthil",
+    "region": "REG-SAC",
+    "regionNombre": "Sa-changü",
+    "titulo": "Representante de Casa Manthil en Vesteria",
+    "estado": "Muerto",
+    "estadoDetalle": "Muerto — 7 oct 423. La Noche Cero.",
+    "categoria": "antagonista",
+    "rol": "Espía de Kalveth. Descubrió a Kahlren y Saelya planeando usar el Pergamino. Apuñaló a Saelya. Fue sacrificado por Kahlren con el Pergamino.",
+    "notaInterna": "El Almanaque no entiende lo que registra. Sohrkan fue el primer sacrificio del Pergamino — el más barato posible, lo que generó la penalización de 5 semanas.",
+    "eventos": [
+      { "fecha": "7 Oct 423", "desc": "La Noche Cero: descubre a Kahlren y Saelya. Apuñala a Saelya. Kahlren lo usa como sacrificio del Pergamino." }
+    ],
+    "relaciones": [
+      { "id": "PER-VELK-001", "nombre": "Kalveth Velkyos", "tipo": "Su patrón." },
+      { "id": "PER-LYSS-001", "nombre": "Saelya Lyssaries", "tipo": "La mató." }
+    ]
+  },
+  {
+    "id": "PER-VAER-001",
+    "nombre": "Thalan Vaeris",
+    "casa": "HOU-VAER",
+    "casaNombre": "Casa Vaeris",
+    "region": "REG-EST",
+    "regionNombre": "Estia",
+    "titulo": "Archivero asociado del Colegio de Nemyon",
+    "estado": "Ejecutado",
+    "estadoDetalle": "Ejecutado — 423 d.d.e. Cargo: traición al estado.",
+    "categoria": "secundario",
+    "rol": "Mejor amigo plebeyo de Kahlren. Su influencia convirtió a Kahlren en el 'noble más plebeyo'. Su ejecución fue el punto de quiebre que impulsó a Kahlren y Saelya a destruir a la nobleza.",
+    "notaInterna": "La condena fue firmada con el sello de un rey muerto — técnicamente nula. El Colegio de Nemyon no eliminó sus documentos. Solo los selló.",
+    "eventos": [
+      { "fecha": "Años antes del Cap. 1", "desc": "Acusado falsamente. Torturado. Kahlren y Saelya lo salvan usando el poder Lyssaries." },
+      { "fecha": "Años antes del Cap. 1", "desc": "Ejecutado por Kalveth en la plaza de Estia frente a Kahlren y Saelya. Mutilación de brazos y pies, ahorcado. Punto de quiebre." }
+    ],
+    "relaciones": [
+      { "id": "PER-ISVA-001", "nombre": "Kahlren Isvaren", "tipo": "Mejor amigo. Su muerte lo definió." },
+      { "id": "PER-LYSS-001", "nombre": "Saelya Lyssaries", "tipo": "También lo conocía. Su muerte los unió en venganza." }
+    ]
+  },
+  {
+    "id": "PER-THORN-001",
+    "nombre": "Vahlren Thorne",
+    "casa": null,
+    "casaNombre": "Sin casa registrada",
+    "region": null,
+    "regionNombre": "Desconocida",
+    "titulo": "Sin título registrado",
+    "estado": "Muerto",
+    "estadoDetalle": "Ver PER-ISVA-001 — Kahlren Isvaren bajo identidad falsa. Muerto en 424.",
+    "categoria": "secundario",
+    "rol": "Identidad falsa adoptada por Kahlren post-Balada. Nombre tomado del hijo de un preso conocido del Cap. 1. No existe en el Almanaque.",
+    "notaInterna": "La única persona de rango noble en la historia reciente que existe completamente fuera del Almanaque — no porque haya escapado, sino porque decidió que el sistema ya no lo contenía.",
+    "eventos": [
+      { "fecha": "Post-Balada 423", "desc": "Kahlren adopta esta identidad tras encontrar a su familia muerta." },
+      { "fecha": "424", "desc": "Rahlven descubre que Vahlren = Kahlren. Cap. 30-32." }
+    ],
+    "relaciones": [
+      { "id": "PER-ISVA-001", "nombre": "Kahlren Isvaren", "tipo": "Es él mismo." }
+    ]
+  },
+  {
+    "id": "PER-ISVA-003",
+    "nombre": "Naeris Isvaren",
+    "casa": "HOU-ISVA",
+    "casaNombre": "Casa Isvaren",
+    "region": "REG-EST",
+    "regionNombre": "Estia",
+    "titulo": "Pendiente de confirmación",
+    "estado": "Muerto",
+    "estadoDetalle": "Muerto — Balada de Vesteria, 14 nov 423",
+    "categoria": "secundario",
+    "rol": "Miembro de Casa Isvaren. POV en Cap. 13.",
+    "eventos": [
+      { "fecha": "14 Nov 423", "desc": "Muerto — Balada de Vesteria." }
+    ],
+    "relaciones": [
+      { "id": "PER-ISVA-001", "nombre": "Kahlren Isvaren", "tipo": "Familiar (parentesco pendiente de confirmación)." }
+    ]
+  },
+  {
+    "id": "PER-ISVA-004",
+    "nombre": "Aldric Isvaren",
+    "casa": "HOU-ISVA",
+    "casaNombre": "Casa Isvaren",
+    "region": "REG-EST",
+    "regionNombre": "Estia",
+    "titulo": "Padre de Kahlren, Lioren y Naeris",
+    "estado": "Muerto",
+    "estadoDetalle": "Fallecido en el año 420 d.d.e. — antes de la novela.",
+    "categoria": "secundario",
+    "rol": "Padre de Kahlren, Lioren y Naeris. Jefe de la familia Isvaren hasta su muerte. Esposo de Jedana.",
+    "eventos": [
+      { "fecha": "420 d.d.e.", "desc": "Fallece. Lioren asume como jefe de familia." }
+    ],
+    "relaciones": [
+      { "id": "PER-ISVA-001", "nombre": "Kahlren Isvaren", "tipo": "Hijo." },
+      { "id": "PER-ISVA-002", "nombre": "Lioren Isvaren", "tipo": "Hijo." }
+    ]
+  },
+  {
+    "id": "PER-ISVA-005",
+    "nombre": "Alyra Isvaren",
+    "casa": "HOU-ISVA",
+    "casaNombre": "Casa Isvaren",
+    "region": "REG-EST",
+    "regionNombre": "Estia",
+    "titulo": "Esposa de Lioren Isvaren",
+    "estado": "Muerta",
+    "estadoDetalle": "Muerta — Balada de Vesteria, 14 nov 423",
+    "categoria": "secundario",
+    "rol": "Esposa de Lioren. POV en Cap. 14 — un día en el palacio Isvaren sin Lioren.",
+    "eventos": [
+      { "fecha": "14 Nov 423", "desc": "Muerta — Balada de Vesteria." }
+    ],
+    "relaciones": [
+      { "id": "PER-ISVA-002", "nombre": "Lioren Isvaren", "tipo": "Esposo. Muerto el mismo día." }
+    ]
+  }
+]

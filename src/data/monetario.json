@@ -1,0 +1,92 @@
+{
+  "descripcion": "El sistema monetario de Alváthia fue creado por Los Seis en el vacío mágico post-borrado. Cada moneda está vinculada a un dios y representa una escala de la jerarquía social. Toda transacción es, en teoría, un acto de devoción.",
+  "monedas": [
+    {
+      "id": "MON-ASV",
+      "nombre": "Asvar",
+      "abrev": "Asv",
+      "dios": "GOD-ASV",
+      "diosNombre": "Asvaren",
+      "material": "Bronce negro",
+      "valorAsvar": 1,
+      "uso": "Pagos comunes, impuestos, multas, honorarios de escribas",
+      "quienLaUsa": "Todo el mundo. El artesano, el campesino, el soldado raso.",
+      "descripcion": "El impuesto de la existencia. Quien no tiene Asvar no puede pagar impuestos. Quien no paga impuestos no existe legalmente ante el Colegio de Asvaren.",
+      "notaInterna": "Un Asvar al día es el 'costo mínimo de ciudadanía'. Cuántos no llegan a ese mínimo — no está registrado. No es una cifra que la Cámara requiera."
+    },
+    {
+      "id": "MON-LIO",
+      "nombre": "Liorin",
+      "abrev": "Lio",
+      "dios": "GOD-LIO",
+      "diosNombre": "Liora",
+      "material": "Níquel blanco",
+      "valorAsvar": 5,
+      "uso": "Alimentos en mercados regulados, medicamentos, parteras, ritos fúnebres de clase media",
+      "quienLaUsa": "Artesanos, mercaderes menores, soldados con sueldo.",
+      "descripcion": "La moneda del cuerpo. Si no tienes Liorin, compras en mercados no certificados.",
+      "notaInterna": "El padre de Vahlren Thorne fue detenido por robo de alimentos. No portaba moneda de ningún tipo. Sin Liorin, la única opción es robar. El Colegio lo registra como 'falta individual de previsión'."
+    },
+    {
+      "id": "MON-VEL",
+      "nombre": "Velkan",
+      "abrev": "Vel",
+      "dios": "GOD-VEL",
+      "diosNombre": "Velkar",
+      "material": "Plata pura",
+      "valorAsvar": 10,
+      "uso": "Peajes, viajes, hospedajes, contratos comerciales menores",
+      "quienLaUsa": "Mercaderes medios, viajeros con recursos, funcionarios.",
+      "descripcion": "El contrato que camina. Da acceso a la red de infraestructura del Gremio: hostales certificados, rutas con mantenimiento, guías registrados.",
+      "notaInterna": ""
+    },
+    {
+      "id": "MON-THA",
+      "nombre": "Thar",
+      "abrev": "Tha",
+      "dios": "GOD-THA",
+      "diosNombre": "Tharen",
+      "material": "Electrum (oro + plata)",
+      "valorAsvar": 100,
+      "uso": "Libros, educación, contratos de copia, herramientas de escritura",
+      "quienLaUsa": "Nobles, funcionarios de alto rango, mercaderes ricos.",
+      "descripcion": "El precio del saber. Un libro cuesta entre 3 y 8 Thar. El salario anual de un artesano calificado es ~400 Asvar = 4 Thar.",
+      "notaInterna": "Un Thar = 100 Asvar. Salario mensual de soldado raso: ~40 Asvar. Salario anual artesano: ~400 Asvar. Un libro: 300-800 Asvar. La ecuación no requiere cálculo adicional."
+    },
+    {
+      "id": "MON-ELA",
+      "nombre": "Elari",
+      "abrev": "Ela",
+      "dios": "GOD-ELA",
+      "diosNombre": "Elaris",
+      "material": "Oro puro",
+      "valorAsvar": 1000,
+      "uso": "Dotes matrimoniales, joyas certificadas, arte, donaciones a templos",
+      "quienLaUsa": "Nobles, casas mayores, mercaderes de lujo con certificación.",
+      "descripcion": "El valor de lo que dura. Un Elari = dos años y medio del salario anual de un artesano. No es una moneda que se gaste. Se transfiere.",
+      "notaInterna": "El pañuelo de seda S.M. [EVT-0423-009] fue tasado en rango MON-ELA. Si el contrato de compra fue registrado en Sa-changü, existe un rastro documental. El Colegio de Velkar en Vesteria no puede accederlo."
+    },
+    {
+      "id": "MON-NEM",
+      "nombre": "Nemar",
+      "abrev": "Nem",
+      "dios": "GOD-NEM",
+      "diosNombre": "Nemyon",
+      "material": "Mitral (oro rojo oscuro)",
+      "valorAsvar": 10000,
+      "uso": "Pactos nobles irrevocables, funerales de rango real, declaraciones de guerra, tratados de paz",
+      "quienLaUsa": "Casas nobles mayores, la corona, los Colegios en actos de alianza formal.",
+      "descripcion": "El pacto que no se rompe. No circula. Se deposita. Romper un pacto Nemar no tiene compensación posible. Entre 421-423 el Archivo no registra ningún Nemar emitido en Vesteria.",
+      "notaInterna": "La anomalía 421-423: cero Nemares emitidos. Quien ejerció el poder esos dos años no quería que sus actos fueran registrados como irrevocables. Actuó — pero no quiso que Nemyon lo supiera."
+    }
+  ],
+  "equivalencias": [
+    { "desde": "1 Nemar", "a": "10 Elari" },
+    { "desde": "1 Elari", "a": "10 Thar" },
+    { "desde": "1 Thar", "a": "10 Velkan" },
+    { "desde": "1 Velkan", "a": "2 Liorin" },
+    { "desde": "1 Liorin", "a": "5 Asvar" },
+    { "desde": "1 Nemar", "a": "10,000 Asvar" }
+  ],
+  "teologia": "El sistema fue creado por Los Seis en el vacío mágico post-borrado de Naevia. Institucionaliza la jerarquía noble/plebeyo sin nombrarla. Cada transacción debería ser un acto de devoción. En la práctica, es el mecanismo que mantiene a los plebeyos invisibles jurídicamente."
+}
